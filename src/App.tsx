@@ -6,8 +6,6 @@ function App() {
       <Header />
 
       <div class="bg-green-950"></div>
-      <h1>Mud & Moss</h1>
-      <div class="card"></div>
     </>
   );
 }

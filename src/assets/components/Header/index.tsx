@@ -1,8 +1,7 @@
 export default function Header() {
   return (
     <>
-      <span>Hello</span>
-      <span>World</span>
+      <p class="bg-green-950 text-yellow-600 border-black">Mud & Moss</p>
     </>
   );
 }
