@@ -10,13 +10,11 @@ export default function App() {
   return (
     <Router
       root={(props) => (
-        <>
-          <Suspense>
-            <Navigation />
-            {props.children}
-            <Footer />
-          </Suspense>
-        </>
+        <div class="min-h-screen flex flex-col justify-between items-center w-screen">
+          <Navigation />
+          <Suspense>{props.children}</Suspense>
+          <Footer />
+        </div>
       )}
     >
       <FileRoutes />

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer class=" flex flex-col items-center justify-center text-yellow-600 bg-green-950  w-full h-30 px-4 py-6 gap-3">
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center cursor-pointer">
         <img src="/public/images/Mud&Moss.jpg" class="w-36 rounded-full" />
       </div>
       <p class=" flex items-center justify-center text-xs text-yellow-600">

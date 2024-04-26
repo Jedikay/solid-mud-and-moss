@@ -1,10 +1,7 @@
-import Footer from "~/components/Footer";
-import Navigation from "~/components/Navigation";
-
-export default function Home() {
+export default function About() {
   return (
     <>
-      <div>HELP I AM DROWNING</div>
+      <div>About Page</div>
     </>
   );
 }

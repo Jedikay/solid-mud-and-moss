@@ -1,10 +1,13 @@
-import Footer from "~/components/Footer";
-import Navigation from "~/components/Navigation";
+import Heading from "~/components/Heading";
 
 export default function Home() {
   return (
     <>
-      <a href="/">Main</a>
+      <Heading
+        title="Say something here"
+        tophat="something something"
+        blurb="something"
+      />
     </>
   );
 }
