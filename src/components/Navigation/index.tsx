@@ -19,7 +19,7 @@ export default function Navigation() {
           <li class="cursor-pointer hover:underline">
             <a href="/about">About</a>
           </li>
-          <li class="cursor-pointer hover:underline">Services</li>
+          <li class="cursor-pointer hover:underline">Products</li>
           <li class="cursor-pointer hover:underline">Contact</li>
         </ul>
       </nav>
