@@ -1,7 +1,5 @@
 import Heading from "~/components/Heading";
 import HeroSection from "~/components/HeroSection";
-import Contact from "~/components/Contact";
-import Products from "~/components/Products";
 
 export default function Home() {
   return (
@@ -12,8 +10,6 @@ export default function Home() {
         blurb="something"
       />
       <HeroSection />
-      <Contact />
-      <Products />
     </>
   );
 }
