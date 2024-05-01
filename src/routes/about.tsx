@@ -1,3 +1,5 @@
+import AboutHeader from "~/components/AboutHeader";
+
 export default function About() {
   return (
     <>
@@ -7,6 +9,7 @@ export default function About() {
         Section, Image, Values, Logo, Team, Blog)
         https://tailwindui.com/components/marketing/page-examples/about-pages
       </div>
+      <AboutHeader />
     </>
   );
 }
