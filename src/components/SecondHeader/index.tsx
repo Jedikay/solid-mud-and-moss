@@ -1,4 +1,4 @@
-export default function AboutHeader() {
+export default function SecondHeader() {
   return (
     <div class="bg-white">
       {/* Header */}

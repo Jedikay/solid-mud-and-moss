@@ -1,4 +1,10 @@
-import AboutHeader from "~/components/AboutHeader";
+import ContentSection from "~/components/ContentSection";
+import HeroCollage from "~/components/HeroCollage";
+import Logos from "~/components/Logos";
+import SecondFooter from "~/components/SecondFooter";
+import SecondHeader from "~/components/SecondHeader";
+import SectionImage from "~/components/SectionImage";
+import Values from "~/components/Values";
 
 export default function About() {
   return (
@@ -9,7 +15,13 @@ export default function About() {
         Section, Image, Values, Logo, Team, Blog)
         https://tailwindui.com/components/marketing/page-examples/about-pages
       </div>
-      <AboutHeader />
+      <SecondHeader />
+      <SectionImage />
+      <HeroCollage />
+      <ContentSection />
+      <Values />
+      <Logos />
+      <SecondFooter />
     </>
   );
 }
