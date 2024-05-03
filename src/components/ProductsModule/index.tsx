@@ -1,4 +1,14 @@
-export default function ProductsModule() {
+interface IProductsModuleProps {
+  products: {
+    href: string;
+    imageSrc: string;
+    imageAlt: string;
+    name: string;
+    price: string;
+  }[];
+}
+
+export default function ProductsModule({ products }: IProductsModuleProps) {
   return (
     <>
       <div class="bg-white">
