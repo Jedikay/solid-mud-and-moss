@@ -21,8 +21,6 @@ export default function Contact() {
         </div>
       </div>
       <div class="w-full max-w-md lg:flex-1">
-        <p class="text-sm text-green-500">Email sent successfully!</p>
-
         <form class="flex flex-col">
           <div class="mb-6">
             <label id="name" class="block mb-2 text-sm font-medium text-white">
