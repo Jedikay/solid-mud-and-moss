@@ -1,3 +1,5 @@
+import ProductsModule from "~/components/ProductsModule";
+
 export default function Products() {
   return (
     <>
