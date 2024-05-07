@@ -20,10 +20,10 @@ export default function Navigation() {
             <a href="/about">About</a>
           </li>
           <li class="cursor-pointer hover:underline">
-            <a href="/about">Products</a>
+            <a href="/products">Products</a>
           </li>
           <li class="cursor-pointer hover:underline">
-            <a href="/about">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </nav>
