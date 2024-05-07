@@ -5,25 +5,25 @@ export default function Contact() {
       class="flex flex-col items-center justify-center w-full gap-8 my-10 lg:items-start lg:flex-row"
     >
       <div class="w-full max-w-lg lg:w-1/2">
-        <h5 class="my-2 text-3xl font-bold text-purple-500">Contact</h5>
-        <p class="max-w-md mb-4 text-slate-200"> Your text here</p>
+        <h5 class="my-2 text-3xl font-bold text-green-700">Contact</h5>
+        <p class="max-w-md mb-4 text-yellow-600"> Your text here</p>
         <div class="flex flex-row gap-2 socials">
           <a
             href="/"
             target="_blank"
-            class="w-12 cursor-pointer text-slate-200 hover:text-purple-500"
+            class="w-12 cursor-pointer text-slate-200 hover:text-green-700"
           ></a>
           <a
             href="/"
             target="_blank"
-            class="w-12 cursor-pointer text-slate-200 hover:text-purple-500"
+            class="w-12 cursor-pointer text-slate-200 hover:text-green-700"
           ></a>
         </div>
       </div>
       <div class="w-full max-w-md lg:flex-1">
         <form class="flex flex-col">
           <div class="mb-6">
-            <label id="name" class="block mb-2 text-sm font-medium text-white">
+            <label id="name" class="block mb-2 text-sm font-medium text-black">
               Full Name:
             </label>
             <input
@@ -80,7 +80,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            class="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full border border-purple-500 bg-purple-500"
+            class="bg-primary-500 hover:bg-primary-600 text-black font-medium py-2.5 px-5 rounded-lg w-full border border-green-700 bg-neutral-300"
           >
             Send Message
           </button>
