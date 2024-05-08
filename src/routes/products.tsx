@@ -2,31 +2,31 @@ import ProductsModule from "~/components/ProductsModule";
 
 const products = [
   {
-    name: "Product 1",
+    name: "Intricate vase",
     href: "#",
-    imageSrc: "your/picture/goes/here",
-    imageAlt: "This is product 1, a pretty vase.",
+    imageSrc: "/public/images/natalie-kinnear-8meK0SfPZYw-unsplash.jpg",
+    imageAlt: "Pretty blue vase.",
     price: "$50",
   },
   {
-    name: "Product 2",
+    name: "Green and Pink Dinnerware",
     href: "#",
-    imageSrc: "your/picture/goes/here",
-    imageAlt: "This is product 2, a tasteful sculpture.",
+    imageSrc: "/public/images/toa-heftiba-yN33yGmulWE-unsplash.jpg",
+    imageAlt: "Green and pink dinner set.",
     price: "$75",
   },
   {
-    name: "Product 3",
+    name: "Jewelry Holder",
     href: "#",
-    imageSrc: "your/picture/goes/here",
-    imageAlt: "This is product 3, a jewelry holder.",
+    imageSrc: "/public/images/tessa-edmiston-ECr_8nuXpBA-unsplash.jpg",
+    imageAlt: "A jewelry holder.",
     price: "$25",
   },
   {
-    name: "Product 4",
+    name: "Striped Pitcher",
     href: "#",
-    imageSrc: "your/picture/goes/here",
-    imageAlt: "This is product 4, a pitcher",
+    imageSrc: "/public/images/gilbert-beltran-951yvcd2tEE-unsplash.jpg",
+    imageAlt: "A pitcher",
     price: "$60",
   },
 ];
